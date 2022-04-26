@@ -1,0 +1,65 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-weight: 600;
+}
+#home{
+    background-color: brown;
+}
+ 
+#apply{
+    align-items: center;
+}
+#car{
+    margin-top: -14px;
+    
+}
+/* #bgimage{
+    background-image: url("photos/ThanitApril_75.jpg");
+    background-size: 100% 90vh;
+    background-repeat: no-repeat;
+    
+}
+#bgtxt{
+    margin-top: 20vh;
+}
+#bgdiv{
+    height: 90vh;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    #border{
+        margin-top: 5px;
+    }
+   
+    #bgtext{
+        margin-top: 15vh;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    #bgtext{
+       margin-top: 20vh ;
+    }
+    #photo{
+        margin-top: 7vh;
+    }
+    #content{
+        padding: 3px;
+        display: flex;
+    }
+
+
+}
+@media screen 
+  and (min-width: 1024px) 
+  
+   { 
+    #bgtext{
+        margin-top: 15vh ;
+    }
+    /* #accordionFlushExample{
+        margin-top: 12vh;
+} */
+   }
+
